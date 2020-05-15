@@ -12,10 +12,11 @@ nav {
 }
 
 .footer {
-    display: flex;
-    justify-content: baseline;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     align-items: center;
-    min-height: 10vh;
+    height: 5rem;
     background: rgb(73, 79, 82);
     color: white;
 }
@@ -26,4 +27,24 @@ nav {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+}
+
+.project-card {
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.contact {
+    font-size: 22pt;
+}
+
+.about {
+    font-size: 16pt;
+}
+
+.projectPage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

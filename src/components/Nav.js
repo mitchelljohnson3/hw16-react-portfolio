@@ -9,9 +9,9 @@ function Nav() {
 
   return (
     <nav>
-      <h3>Logo</h3>
+      <h2>Mitchell Johnson</h2>
       <ul className="nav-links">
-        <Link style={navStyle} to='/about'>
+        <Link style={navStyle} to='/'>
           <li>About Me</li>
         </Link>
         <Link style={navStyle} to='/portfolio'>
